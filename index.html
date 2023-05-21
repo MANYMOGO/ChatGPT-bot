@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>ChatGTP Bot</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h3>챗지피티 봇이에요 💬</h3>
+      </div>
+
+      <div class="info">
+        <a href="https://github.com/MANYMOGO" target="_blank">
+          <div>유튜브 "AsmrProg"를 참고하여 제작하였습니다</div>
+          <div class="info-before">
+            (클릭하면 저의 깃헙 페이지로 이동합니다)
+          </div>
+        </a>
+      </div>
+
+      <div class="chat-container">
+        <div id="chat-log"></div>
+      </div>
+
+      <div class="input-container">
+        <input
+          type="text"
+          id="user-input"
+          placeholder="메세지를 입력해 주세요"
+        />
+        <button id="send-button">
+          <i class="fa-solid fa-comment" id="button-icon"></i>
+        </button>
+      </div>
+    </div>
+
+    <script src="index.js"></script>
+  </body>
+</html>
